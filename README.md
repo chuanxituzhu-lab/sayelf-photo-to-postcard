@@ -6,8 +6,9 @@ Local-first photo-to-postcard tool. Upload an image in the browser, keep the ori
 
 1. Open `sayelf-photo-to-postcard.html` in a modern browser.
 2. Upload a local image.
-3. Optionally choose an art domain/style or keep **自动随机**. Style changes apply only to the lower-right artistic translation slot; the master structure remains fixed.
-4. Use **一键生成**, then download the postcard or the composite PNG.
+3. Choose a template workflow for comparison: **融合默认 / 3:4 50:50** (typography mask), **固定母版 / 信息明信片**, or **正反面陈列**. The sketch-air, centered-editorial and textile-collage variants are available as lower-area treatments.
+4. Optionally choose an art domain/style or keep **自动随机**. Style changes apply only to the selected lower design method; the source photo remains the evidence anchor.
+5. Use **一键生成**, then download the postcard or the composite PNG. Each upload produces an independent output.
 
 ## Optional local vision
 
@@ -30,3 +31,5 @@ The default HTML remains usable without the optional model files and falls back 
 Copy is matched from the recognized image family: natural landscape, city bridge, tea terraces, animals, or travel portrait. Different uploads receive different four-field copy combinations through bounded local history.
 
 Reference images supplied locally are used as whitespace inspiration only. Their subjects and artwork are not copied or published.
+
+See [references/template-workflows.md](references/template-workflows.md) for the distilled workflows and comparison templates.
