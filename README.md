@@ -1,5 +1,7 @@
 # SAYELF Photo-to-Postcard v0.4
 
+![SAYELF Photo-to-Postcard preview](assets/readme-cover.png)
+
 Local-first photo-to-postcard tool. Upload an image in the browser, keep the original photo faithful, generate a same-scene artistic prompt, and export either a postcard PNG or a combined photo-and-postcard PNG. The default master is fixed: original photo on top, metadata and copy at lower left, and same-scene artistic translation at lower right.
 
 ## Download the latest update
