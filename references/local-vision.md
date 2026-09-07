@@ -13,7 +13,7 @@ The installer places the open-source browser bundles under `vision/vendor/`:
 - TensorFlow.js COCO-SSD 2.2.3 object detector
 - TensorFlow.js MobileNet 2.1.1 image classifier
 
-After installation, open `sayelf-photo-to-postcard.html`, upload a photo, and click **加载并运行本地视觉识别**. The browser uses COCO-SSD labels (for example `person`, `cat`, `dog`, `potted plant`, `boat`, `mountain`) and MobileNet classifications as additional evidence. The result is used to update the scene decomposition, the four automatic 03 copy fields (unless manually edited), and the Chinese/English prompts. The original upload remains the source image; the labels never authorize a new subject or a new scene.
+After installation, open `sayelf-photo-to-postcard.html` and upload a photo. The browser automatically runs the local vision pack when available; the button **加载并运行本地视觉识别** can run it again. It combines COCO-SSD labels (for example `person`, `cat`, `dog`, `potted plant`, `boat`, `mountain`) with MobileNet classifications and local pixel evidence. The result updates the scene decomposition, regenerates all four 03 copy fields for the current image, and refreshes the Chinese/English prompts. A bounded local copy history prevents the same four-field combination from repeating. The original upload remains the source image; the labels never authorize a new subject or a new scene.
 
 The first model load may fetch the model weights required by the official TensorFlow.js model loader. The browser then caches those weights in IndexedDB, so later runs can use the local cache. If the optional files are missing or a model cannot load, the tool falls back to its existing filename and pixel heuristics and continues to export PNGs.
 
