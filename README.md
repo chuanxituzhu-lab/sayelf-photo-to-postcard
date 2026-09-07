@@ -2,6 +2,13 @@
 
 Local-first photo-to-postcard tool. Upload an image in the browser, keep the original photo faithful, generate a same-scene artistic prompt, and export either a postcard PNG or a combined photo-and-postcard PNG. The default master is fixed: original photo on top, metadata and copy at lower left, and same-scene artistic translation at lower right.
 
+## Download the latest update
+
+- [Download the latest `main` ZIP](https://github.com/chuanxituzhu-lab/sayelf-photo-to-postcard/archive/refs/heads/main.zip)
+- [Open the latest GitHub revision](https://github.com/chuanxituzhu-lab/sayelf-photo-to-postcard/tree/main)
+
+The links above follow the current `main` branch, so they always point to the newest published update.
+
 ## Use
 
 1. Open `sayelf-photo-to-postcard.html` in a modern browser.
