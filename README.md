@@ -29,7 +29,15 @@ For generic filenames, install the browser-local TensorFlow.js vision pack:
 
 Then upload a photo; the local vision pack runs automatically when available, and **加载并运行本地视觉识别** can run it again. See [references/local-vision.md](references/local-vision.md) for model caching, privacy, and licenses.
 
-The default HTML remains usable without the optional model files and falls back to local filename/pixel heuristics. User images are processed in the browser and are not included in this repository.
+For stronger local scene and subject evidence, install IBM Granite Vision through Ollama:
+
+```powershell
+.\\scripts\\install-ibm-vision.ps1
+```
+
+In the WebUI, set **视觉后端** to **自动融合 · 浏览器 + IBM Granite** or **IBM Granite Vision · Ollama 本地**. The browser detector remains the fallback, and the IBM adapter sends the resized image only to `http://127.0.0.1:11434`.
+
+The default HTML remains usable without the optional model files and falls back to local filename/pixel heuristics. User images are processed locally in the browser or through the explicitly selected local Ollama service and are not included in this repository.
 
 ## Fixed postcard master
 
