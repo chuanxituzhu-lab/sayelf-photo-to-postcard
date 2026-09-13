@@ -18,6 +18,7 @@ The links above follow the current `main` branch, so they always point to the ne
 3. Choose a template workflow for comparison: **融合默认 / 3:4 50:50** (typography mask), **固定母版 / 信息明信片**, or **正反面陈列**. The sketch-air, centered-editorial and textile-collage variants are available as lower-area treatments.
 4. Optionally choose an art domain/style or keep **自动随机**. Style changes apply only to the selected lower design method; the source photo remains the evidence anchor.
 5. Use **一键生成**, then download the postcard or the composite PNG. Each upload produces an independent output.
+6. Use the **界面语言 / Interface language** selector in the header to switch the controls, template names, prompts and workflow status between Chinese and English. The workflow panel reports the current step, completed work, available results and next action.
 
 ## Optional local vision
 

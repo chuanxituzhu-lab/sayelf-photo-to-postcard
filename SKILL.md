@@ -32,6 +32,7 @@ The optional-vision build decision is recorded in `references/build-decision-rec
    - **图片 + 明信片** exports one composite PNG containing the original photo beside the rendered postcard.
    - **仅明信片** exports the rendered postcard alone as PNG.
 14. Confirm the browser reports that the PNG was generated. Do not claim success if the user has not uploaded a readable image.
+15. Keep the ordinary-user view state-driven: show a bilingual workflow status panel with READY, RUNNING, COMPLETED or FAILED, plus the current step, completed items, produced results and next action. The header language selector switches the interface and workflow labels between Chinese and English without changing the image evidence or postcard text language choice.
 
 ## GitHub distillation and differentiation
 
